@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.js"></script>
+   <script src="https://kit.fontawesome.com/08beeb9762.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body >
+        <div class="bg-light">
+        <div class="container d-flex ">
+            <div class="col-4 mt-3 "><p class="mx-1">Welcome to Shopy Store</p></div>
+            <div class="col-4 offset-5 mt-3 ">
+                <ul class="d-flex">
+                    <li class="mx-2"><i class="fas fa-phone-alt mx-1"></i>Contact Us</li>
+                    <li class="mx-2"><i class="fas fa-user mx-1"></i>Log in</li>
+                    <li class="mx-2"><i class="fas fa-user-circle mx-1"></i>Sign in / Register</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="container d-flex mt-5 mb-4">
+            <div class="col-2">
+                <img class="m-1" src="img/SHOPY (3).png" alt="" width="150px">
+            </div>
+            <div class="col-6">
+                <div class="wrapper d-flex">
+                    <div class="search_box">
+                        <div class="dropdown">
+                            <div class="default_option ">All CATEGORY</div>  
+                            <ul>
+                              <li class="text-center">BROWSE  </li>
+                              <hr>
+                              <li>All </li>
+                              <li>Clothes</li>
+                              <li>Fourniture</li>
+                              <li>Electronics</li>
+                              <li>Accessories</li>
+                              <li>Games</li>
+                              <li>Babies</li>
+                              <li>Make Up</li>
+                              <li>Health Care</li>
+                              <li>Decor</li>
+                              <li>Pets</li>
+                            </ul>
+                        </div>
+                        <div class="search_field">
+                          <input type="text" class="input-field" placeholder="Search">
+                          <i id="search-fas" class="fas fa-search"></i>
+                      </div>
+                      
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-4">
+              <div class="fields d-flex mx-4">
+                <i class="fa fa-phone-alt mx-3 mt-3" style="width:25px;height:25px;color: rgb(108, 104, 104);"></i>
+                <p class="mt-2" style="border-right: 1px solid gray; padding-right: 25px;">Call Us : <br>(+216) 20 932 671 </p>
+                <i class="fa fa-envelope mx-3 mt-3" style="width:25px;height:25px;color: rgb(108, 104, 104);"></i>
+                <p class="mt-2" >Mail Us : <br>shopy@gmail.com </p>
+              </div>
+            </div>
+             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                 <span class="navbar-toggler-icon text-dark"></span>       
+             </button>
+        </div> 
+        <header class=" sticky-top mt-3">
+                <nav class="navbar navbar-default bg-white m-0">
+                    <div class="header-main">
+                      <div class="container d-flex">
+                          <nav  class="navbar navbar-vertical show " style="position:absolute;top:15%;">
+                            <div id="toggler" class="d-flex "  >
+                              <i  class="fa fa-bars mx-1 mt-1" style="width:25px;height:25px;color: rgb(190, 182, 182);cursor: pointer;"></i>
+                              <h5 class="text-dark mx-4 "  style="font-weight: inherit;cursor: pointer;">BROWSE CATEGORY</h5>
+                              </div>
+                            
+                            <ul id="nav-vertical" class="navbar-nav shadow " style="margin-top: 21.5px;">
+                                <li class="nav-item ">
+                                  <a class="nav-link" href="#"><i class="fas fa-couch mx-4"></i>Fourniture <i class="fa fa-angle-right " style="margin-right:0px ; float:right; width:15px;height:15px;"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-shower mx-4"></i>Decor <i class="fa fa-angle-right " style="margin-right:0px ; float:right; width:15px;height:15px;"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-tshirt mx-4"></i>Clothes <i class="fa fa-angle-right " style="margin-right:0px ; float:right; width:15px;height:15px;"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-laptop mx-4"></i>Electronics </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-gem mx-4"></i>Accessories </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-gamepad mx-4"></i>Games </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-baby-carriage mx-4"></i>Babies <i class="fa fa-angle-right " style="margin-right:0px ; float:right; width:15px;height:15px;"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-gift mx-4"></i>Make Up </a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link" href="#"><i class="fas fa-heartbeat mx-4"></i>Health Care </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fas fa-paw mx-4"></i>Pets <i class="fa fa-angle-right " style="margin-right:0px ; float:right;width:15px;height:15px;"></i></a>
+                                </li>
+                                
+
+                              </ul>
+                          </nav>
+                          
+                          <nav class="navigation-primary  d-flex">
+                            <ul>
+                              <li style="margin-left: 250px;"><a class="text-danger" href="">Home </a></li>
+                              <li><a href="">SHOP <i class="fa fa-chevron-down mx-2"></i></a>
+                                <ul class="mega-menu">
+                                  <li><a href="">Lorem ipsum.</a> <span class="badge">New</span>
+                                    <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Amet, atque.</a>
+                                    <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Veritatis, ipsa?</a>
+                                     <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Eveniet, est.</a>
+                                     <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a href="">DAILY DEALS <i class="fa fa-chevron-down mx-2"></i></a>
+                                <ul class="mega-menu">
+                                  <li><a href="">Lorem ipsum.</a> <span class="badge">New</span>
+                                    <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Amet, atque.</a>
+                                    <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Veritatis, ipsa?</a>
+                                     <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Eveniet, est.</a>
+                                     <ul class="mega-menu-inner">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a href="">BLOG <i class="fa fa-chevron-down mx-2"></i></a>
+                                <ul class="sub-menu">
+                                  <li><a href="">Lorem ipsum.</a></li>
+                                  <li><a href="">Amet, atque.</a></li>
+                                  <li><a href="">Culpa, odit?</a>
+                                    <ul class="sub-menu">
+                                      <li><a href="">Lorem ipsum.</a></li>
+                                      <li><a href="">Amet, atque.</a></li>
+                                      <li><a href="">Veritatis, ipsa?</a></li>
+                                      <li><a href="">Eveniet, est.</a></li>
+                                      <li><a href="">Culpa, odit?</a>
+                                        <ul class="sub-menu">
+                                          <li><a href="">Lorem ipsum.</a></li>
+                                          <li><a href="">Amet, atque.</a></li>
+                                          <li><a href="">Veritatis, ipsa?</a></li>
+                                          <li><a href="">Eveniet, est.</a></li>
+                                          <li><a href="">Culpa, odit?</a></li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li><a href="">Veritatis, ipsa?</a></li>
+                                  <li><a href="">Eveniet, est.</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="">About Us</a></li>
+                              <li><a href="">Contact Us</a></li>
+                            </ul>
+                          </nav>
+                            <div class="d-flex  p-0" style="margin-left: 150px;">
+                              <ul class="d-flex mx-3 p-0">
+                                <li>
+                                  <i class="shop-icon fas fa-shopping-cart" style="width:25px;height:25px;margin-top:20px;color: rgb(86, 83, 83);"></i>
+                                </li>
+                              <li>
+                               <i class="shop-icon far fa-heart mx-5" style="width:25px;height:25px;margin-top:20px;color: rgb(86, 83, 83);"></i>
+                              </li>
+                            </ul>
+                              </div>
+                        </div>
+                      </div>
+                    
+                    <!-- /.nav-collapse -->
+                 </nav>
+        </header>
+        <section class="mt-0 overflow-hidden">
+            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel"> 
+              <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/bg-1.png" class="img-slide d-block w-100" alt="..." height="530px">
+                        <h1 class="title-slide text-center bg-red">BLACK FRIDAY</h1>
+                        <h4 class="s-title">GET UP TO <span class="text-danger" style="font-weight: bold;">60% OFF</span> </h4>
+                        <button class=" btn-slide border-dark">Shopping Now</button>
+                      </div>
+                  <div class="carousel-item " data-bs-interval="2000">
+                    <img src="img/bg-3333.png" class="img-slide d-block w-100" alt="..." height="530px">
+                    <h1 class="title-slide text-center ">NEW COLLECTION 2022</h1>
+                        <h4 class="s-title">THE BEST EXCLUSIVE OFFER !</h4>
+                        <button class=" btn-slide  border-dark">See More</button>
+                  </div>
+                  <div class="carousel-item" >
+                    <img src="img/bg-2.png" class="img-slide d-block w-100" alt="..." height="530px">
+                    <h1 class="title-slide text-center ">FLASH SALE</h1>
+                        <h4 class="s-title">ONLY THIS WEEKEND</h4>
+                        <h4 class="s-title text-dark" style="top: 50%;left: 37%;">+ than <span class="text-danger"> 40 000 </span> Products</h4>
+                        <h4 class="s-title text-dark" style="top: 60%;left: 37%;">+ than <span class="text-danger"> 3000 </span> Customers are sutisfied</h4>
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="overflow-hidden">
+          <div class="container overflow-hidden mt-5" style="border: 1px solid rgb(226, 226, 226);">
+            <div class="row mt-5 mb-5">
+              <div class="col-3 d-flex">
+                <img src="img/icons/fast (1).png" width="80px" height="75px" alt="">
+                <div class="d-block mx-4 mt-3">
+                  <h4 style="font-weight: bold;">Free Shipping</h4>
+                  <p class="text-muted">For All orders over 99DT</p>
+                </div>
+              </div>
+              <div class="col-3 d-flex">
+                <img src="img/icons/valid (2).png" width="80px" height="75px" alt="">
+                <div class="d-block mx-4 mt-3">
+                  <h4 style="font-weight: bold;">Secure Payment</h4>
+                  <p class="text-muted">We ensure secure payment</p>
+                </div>
+              </div>
+              <div class="col-3 d-flex">
+                <img src="img/icons/save-money.png" width="80px" height="75px" alt="">
+                <div class="d-block mx-4 mt-3">
+                  <h4 style="font-weight: bold;">Money Back Guarantee</h4>
+                  <p class="text-muted">Any back within 30 days</p>
+                </div>
+              </div>
+              <div class="col-3 d-flex">
+                <img src="img/icons/conversation.png" width="80px" height="75px" alt="">
+                <div class="d-block mx-4 mt-3">
+                  <h4 style="font-weight: bold;">Customer Support</h4>
+                  <p class="text-muted">Call or email us 24/7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-5 mb-5 overflow-hidden">
+          <div class="container ">
+            <div class="row">
+              <div class="col-6">
+                <img  src="img/df2.jpg" alt="#" width="600px" height="300px">
+              </div>
+              <div class="col-6">
+                <img class="mx-5" src="img/4185647.jpg" alt="#" width="550px" height="300px">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mb-5 overflow-hidden">
+          <div class="container" >
+            <div class="row gx-5">
+              <div class="col-8 p-0" style="border:2px solid rgb(238, 236, 236);">
+              <div class="left bg-light" >
+                <div >
+                <img  src="img/boAt-Storm-smartwatch-removebg-preview.png" alt="#" >
+              </div>
+              </div>
+              <div class="right" >
+                <div class="product-info mt-3">
+                  <div class="product-name">
+                    <h1 class="text-dark ">DEAL OF THE DAY</h1>
+                    <i class=" fas fa-chevron-left text-secondary"  style="margin-left:120px;"></i>
+                    <i class="fas fa-chevron-right text-dark"  style="margin-left:15px;"></i>
+                    <hr>
+                  </div>
+                  <div class="details">
+                    <p class="text-white bg-danger p-2 w-25">25% OFF</p>
+                    <h2 class="text-dark">SMART WATCH SONY</h2>
+                    <h4><span class="fa fa-dollar"></span class="text-dark">150</h4>
+                    <h4 class="dis"><span class="fa fa-dollar"></span class="text-dark">200</h4>
+                  </div>
+                  <h1 class="text-secondary" style="text-decoration: line-through;font-size:26px">189 000 Dt </h1><h1 class="text-dark mx-3" style="font-weight: bold;font-size:28px">149 000 Dt</h1>
+                  <ul>
+                    <li class="text-dark">COLOR</li>
+                    <li class="yellow text-dark"></li>
+                    <li class="black text-dark"></li>
+                    <li class="blue text-dark"></li>
+                  </ul>
+                  <button class="foot btn bg-transparent text-danger mx-3" style="border:2px solid rgb(182, 47, 47);"><i class="fa fa-shopping-bag mx-3"></i>Buy Now</button>
+                  <button class="foot btn bg-danger text-white mx-3"><i class="fa fa-shopping-cart mx-3"></i>Add TO Cart</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-3  px-5 " style="border:2px solid rgb(218, 216, 216);margin-left: 50px;width: 340px;">
+            <h3 class="best-title mb-1 mx-2" >NEW ARRIVALS</h3>
+            
+            <i class=" fas fa-chevron-left text-secondary"  style="margin-left:35px;"></i>
+            <i class="fas fa-chevron-right text-dark"  style="margin-left:15px;"></i>
+            <hr class="mt-5">
+            <div class="row prod-1 d-flex">
+              <div class="box bg-light col-4 mx-4"><img  class="img-fluid" src="img/valentino-born-in-roma-coral-fantasy-eau-de-parfum-pour-elle-floral-fruite-removebg-preview.png" alt=""></div>
+              <div class="d-block col-6">
+                <h5 style="font-weight: bold;">Parfum VALENTINO</h5>
+                <p>Price: 152 DT</p>
+              </div>
+            </div>
+            <div class="row prod-1 d-flex mt-5 ">
+              <div class="box bg-light col-4 mx-4"><img class="img-fluid" src="img/Apple-MLLE3HN-A-Smart-Phones-491997752-i-2-1200Wx1200H-removebg-preview.png" alt=""></div>
+              <div class="d-block col-6">
+                <h5 style="font-weight: bold;">iPhone 13 Pro </h5>
+                <p>Price: 3 950 DT</p>
+              </div>
+            </div>
+            <div class="row prod-1 d-flex mt-5 mb-5">
+              <div class="box bg-light col-4 mx-4"><img class="img-fluid mt-4 mb-4" src="img/png-transparent-aviator-sunglasses-gucci-fashion-luxury-frame-lens-fashion-glasses-removebg-preview.png" alt=""></div>
+              <div class="d-block col-6">
+                <h5 style="font-weight: bold;">Sun Glasses D&G</h5>
+                <p>Price: 689 DT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </section>
+        <section class="bg-light mt-5 overflow-hidden">
+          <div class="container">
+            <h1 class="cat-title text-center mb-3">TOP CATEGORIES OF THE MONTH</h1>
+            <div class="row slider ">
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white p-4" src="img/prod.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">FOURNITURE</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/pura-lopez-107-glitter-femme-noir-1-removebg-preview.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">SHOES</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/Smartphone-PNG-Free-File-Download.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">HIGH-TECH</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/kisspng-cosmetics-skin-care-lotion-cosmeceutical-dr-39-s-secret-official-website-skin-care-bea-5b65adfeee2853.5983915315333903349755-removebg-preview.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">HEALTH CARE</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white p-4" src="img/prod.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">FOURNITURE</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/pura-lopez-107-glitter-femme-noir-1-removebg-preview.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">SHOES</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/Smartphone-PNG-Free-File-Download.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">HIGH-TECH</h2>
+                </div>
+                <div class="col-3 mt-3" >
+                  <img class="justify-content-center align-items-center mt-5 bg-white" src="img/kisspng-cosmetics-skin-care-lotion-cosmeceutical-dr-39-s-secret-official-website-skin-care-bea-5b65adfeee2853.5983915315333903349755-removebg-preview.png" alt="" width="200px" height="200px">
+                  <h4 class="mx-5 text-dark mt-5">HEALTH CARE</h2>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-0 overflow-hidden">
+          <div class=" mt-5 mb-5">
+            <h1 class="text-center cat-title">POPULAR DEPARTEMENTS</h1>
+            <div class="row ">
+              <div class="col-8 d-flex justify-content-center align-items-center offset-2 mt-5">
+                <button id="btn-one" class="dep-btn  mx-3">BEST SELLER</button>
+              <button id="btn-two" class="dep-btn  mx-3">NEW ARRIVALS</button>
+              <button id="btn-three" class="dep-btn  mx-3">MOST POPULAR</button>
+              <button id="btn-four" class="dep-btn mx-3">FEATURES</button>
+              </div>
+            </div>
+            <div id="cat-one" class="autoplay container row d-flex justify-content-center mt-5" style="margin-left: 150px;">
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/2.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Women Handbag</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/1.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Sport shoes</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/3.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Security camera</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb ">
+                  <img src="img/4.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Hair serum </a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/2.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Women Handbag</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/1.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Sport shoes</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/3.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Security camera</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb ">
+                  <img src="img/4.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Hair serum </a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="cat-two" class="autoplay container row d-none justify-content-center mt-5" style="margin-left: 150px;">
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/2.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Women Handbag</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/1.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Sport shoes</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/3.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Security camera</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb ">
+                  <img src="img/4.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Hair serum </a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/2.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Women Handbag</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/1.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Sport shoes</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb">
+                  <img src="img/3.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Security camera</a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 product-card mx-4">
+                <div class="product-tumb ">
+                  <img src="img/4.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Women,bag</span>
+                  <h4><a href="">Hair serum </a></h4>
+                  
+                  <div class="product-bottom-details">
+                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                    <div class="product-links">
+                      <a href=""><i class="fa fa-heart"></i></a>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-0 overflow-hidden">
+          <div class="container mt-5 mb-5">
+            <div class="row mt-5">
+              <h1 class="cat-title">CLOTHING & ACCESSORIES</h1>
+              <hr> </div>
+              <div class="row">
+                <div class="col-2" >
+                  <img  src="img/istockphoto-1164953045-612x612.jpg" alt="" width="350px" height="580px" style="position: relative;">
+                  <h3 class="text-secondary"  style="position: absolute;top: 40%;margin-left: 40px;font-weight: bold;border-bottom: 2px solid rgb(133, 131, 131);">New Collection</h3>
+                  <h1  style="position: absolute;top: 51%;margin-left: 35px;font-weight: bold;color: rgb(216, 130, 18);">SUMMER VIBES</h3>
+                    <button class="btn-poster" style="position: absolute;top: 65%;margin-left: 130px;font-weight: bold;">Explore</button>
+                </div>
+                <div class="col-10 ">
+                  <div class="d-flex">
+                    <div id="box-cart" class="box-cart " style="margin-left: 170px;cursor: pointer;">
+                      <img id="box-img" class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px" style="position: relative;">
+                      <div id="option" class="d-none">
+                        <div class="box-icon" style="position:absolute;top:15%;">
+                          <i class="shop-icon bg-dark fas fa-shopping-cart p-3 mx-4" style="width:40px;height:40px;border-radius:50px; color: rgb(230, 227, 227);"></i>
+                        </div>
+                        <div class="box-icon" style="position:absolute;top:22%;">
+                          <i class="shop-icon bg-dark far fa-heart p-3 mx-4" style="width:40px;height:40px;border-radius:50px; color: rgb(230, 227, 227);"></i>
+                        </div>
+                      </div>
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                  <div class="d-flex mt-5">
+                    <div class="box-cart " style="margin-left: 170px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="mt-0 overflow-hidden">
+          <div class="container mt-5 mb-5">
+            <div class="row mt-5">
+              <h1 class="cat-title">FOURNITURE & DECORATION</h1>
+              <hr> </div>
+              <div class="row">
+                
+                <div class="col-9 ">
+                  <div class="d-flex">
+                    <div class="box-cart " >
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                  <div class="d-flex mt-5">
+                    <div class="box-cart " >
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2"  >
+                  <img  src="img/furniture-design-template-2e0286618a41e338282d9a6bd4fd641b_screen.jpg" alt="" width="350px" height="580px" style="position: relative;">
+                 
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class=" overflow-hidden container">
+          <div class="row">
+            <img class="mx-5" src="img/Black-Friday-Facebook-Cover-Banner-09.jpg" alt="" height="250px">
+        </div>
+        </section>
+        <section class="mt-0 overflow-hidden">
+          <div class="container mt-5 mb-5">
+            <div class="row mt-5">
+              <h1 class="cat-title">ELECTRONICS & HIGH-TECH</h1>
+              <hr> </div>
+              <div class="row">
+                <div class="col-2" >
+                  <img  src="img/realme-x-teaser-poster.png" alt="" width="350px" height="580px" style="position: relative;">
+                 
+                </div>
+                <div class="col-10 ">
+                  <div class="d-flex">
+                    <div class="box-cart " style="margin-left: 170px;">
+                      <img class="bg-light" src="img/airpods.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Airpods</h5>
+                      <h5 class="text-center">Apple  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">168,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/c595c9dc092cb7fbfecedde02a6952ae.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light " src="img/png-clipart-apple-watch-series-3-smartwatch-apple-watch-accessory-apple-watch-removebg-preview.png" alt="" width="200px" height="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/390-3908394_transparent-power-bank-png-power-bank-wireless-fast-removebg-preview.png" alt="" width="200px" height="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                  <div class="d-flex mt-5">
+                    <div class="box-cart " style="margin-left: 170px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                    <div class="box-cart " style="margin-left: 10px;">
+                      <img class="bg-light" src="img/—Pngtree—black t-shirt mockup_3610326.png" alt="" width="200px">
+                      <h5 class="text-center" style="font-weight: bold;">Men's T-Shirt</h5>
+                      <h5 class="text-center">Size : S M XL  </h5>
+                      <h5 class="text-center text-danger" style="font-weight: bold;">69,999 Dt</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="overflow-hidden">
+          <div class="container mt-5">
+            <h1 class="text-center cat-title mb-2">OUR SPONSORS</h1>
+            <hr>
+            <div class="row mt-5">
+              <div class="col-2 ">
+                 <img src="img/air-jordan-logo.svg" width="120px" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/apple-inc-vector-logo.png" width="120px" alt="">
+             </div>
+             <div class="col-2">
+              <img src="img/samsung-group-vector-logo.png" width="120px" alt="">
+           </div>
+           <div class="col-2">
+            <img src="img/nike-logo-vector-01.png" width="120px" alt="">
+         </div>
+         <div class="col-2">
+          <img src="img/adidas-logo-seeklogo.net-SDsasSA.svg" width="120px" alt="">
+       </div>
+       <div class="col-2">
+        <img src="img/sony-corporation-vector-logo.png" width="120px" alt="">
+       </div>
+            </div>
+          </div>
+        </section>
+        <section class=" text-light p-3 bg-light overflow-hidden mt-5 mb-5">
+          <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3 mt-3">
+               <div class="col-3"><h3 class=" mb-3  text-dark mt-4 mx-5">Sign up for our Newsletter </h3> </div>
+               <div class=" col-7 input-group news-input d-flex ">
+                <div class="col-6"><input type="text" class="mt-3 form-control w-100"
+                  placeholder="Enter Email"></div>
+                   <div class="col-3"> <button class="btn btn-dark mt-3 w-50" type="button" style="height: 35px;">Send</button></div>
+                  
+               </div>
+               <div class="col-1"></div>
+            </div>  
+          </div>
+      </section>
+    
+      <footer class="site-footer overflow-hidden">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 justify-content-center align-items-center">
+                <img src="img/SHOPY (3).png" alt="" width="200px" style="margin-left: 200px;">
+                <p class="text-justify mt-4 text-center">Got Question? Call us 24/7 on
+
+                  +216 20 932 671'<br>
+                  Register now to get updates on pronot get up icons & coupons ster now toon.</p>
+              </div>
+    
+              <div class="col-xs-6 col-md-3">
+                <h6 class="text-dark">Categories</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/category/c-language/" style="text-decoration: none;">C</a></li>
+                  <li><a href="http://scanfcode.com/category/front-end-development/" style="text-decoration: none;">UI Design</a></li>
+                  <li><a href="http://scanfcode.com/category/back-end-development/" style="text-decoration: none;">PHP</a></li>
+                  <li><a href="http://scanfcode.com/category/java-programming-language/" style="text-decoration: none;">Java</a></li>
+                  <li><a href="http://scanfcode.com/category/android/" style="text-decoration: none;">Android</a></li>
+                  <li><a href="http://scanfcode.com/category/templates/" style="text-decoration: none;">Templates</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-xs-6 col-md-3">
+                <h6 class="text-dark">Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/about/" style="text-decoration: none;">About Us</a></li>
+                  <li><a href="http://scanfcode.com/contact/" style="text-decoration: none;">Contact Us</a></li>
+                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/" style="text-decoration: none;">Contribute</a></li>
+                  <li><a href="http://scanfcode.com/privacy-policy/" style="text-decoration: none;">Privacy Policy</a></li>
+                  <li><a href="http://scanfcode.com/sitemap/" style="text-decoration: none;">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved 
+                </p>
+              </div>
+    
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons d-flex">
+                  <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fab fa-pinterest"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fab fa-twitter"></i></a></li>   
+                </ul>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <!-- partial:index.partial.html -->
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/08beeb9762.js" crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.js"></script>
+      <script src="js/brands.js"></script>
+      <script src="js/slick.min.js"></script>
+</body>
+</html>
